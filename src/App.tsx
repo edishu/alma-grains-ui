@@ -7,7 +7,7 @@ export const App = () => {
 
   console.log(state);
   return (
-    <div className="flex justify-center items-center flex-col">
+    <div className="flex justify-center items-center flex-col mt-6">
       <input
         type="file"
         onChange={(e) => {
